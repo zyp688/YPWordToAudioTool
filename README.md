@@ -1,0 +1,2 @@
+# YPAVSpeechSynthesizer
+利用系统原生语言实现文字转语音的阅读模式
