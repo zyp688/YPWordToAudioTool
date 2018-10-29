@@ -59,11 +59,6 @@ typedef enum {
 /** 停止朗读*/
 - (void)stopSpeech;
 
-/** 所有的朗读者*/
-- (NSArray *)getAllSpeakers;
-
-/** 当前的朗读者*/
-- (NSString *)getCurrentSpeaker;
 
 
 @end

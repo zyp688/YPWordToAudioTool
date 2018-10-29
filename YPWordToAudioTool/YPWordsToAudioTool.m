@@ -131,20 +131,7 @@ static id _instance;
         default:
             break;
     }
-    
-    
-    
 }
 
-
-/** 所有的朗读者*/
-- (NSArray *)getAllSpeakers {
-    return @[@"Linda",@"Lisa",@"Lucy"];
-}
-
-/** 当前的朗读者*/
-- (NSString *)getCurrentSpeaker {
-    return  (self.speaker == YPSPEAKER_Linda) ? @"Linda" : ((self.speaker == YPSPEAKER_Lisa) ? @"Lisa" : @"Lucy");
-}
 
 @end
